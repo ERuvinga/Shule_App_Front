@@ -1,17 +1,18 @@
 import Head from '../Components/Head'
 import {BookmarkIcon} from '@heroicons/react/24/outline'
+import Navbar from '../Components/NavBar'
 
 export default function Home() {
   return (
     <>
       <Head/>
-      <p className='text-[#00f] p-[10px]'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Nisi nemo ratione praesentium debitis nam consequuntur 
-        tempora blanditiis quisquam molestias tenetur!
-      </p>
+      <section>
+        <Navbar/>
+        <div className='h-[200vh]'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur ab sed officiis dolore ratione, laboriosam quaerat magnam asperiores ipsum qui necessitatibus explicabo molestiae? Ipsa distinctio quaerat quis exercitationem laborum.
+        </div>
 
-      <BookmarkIcon className='w-[20px] text-[#00f]'/>
-    </>
-  )
+      </section>
+    </> 
+ )
 }

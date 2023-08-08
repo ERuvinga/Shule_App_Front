@@ -33,3 +33,6 @@ body{
   margin: 0;
   font-family: poppinRegular, sans-serif;
 }
+
+/*Nav_bar style*/
+@import './navBar.css'
