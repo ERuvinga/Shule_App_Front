@@ -8,34 +8,26 @@
 }
 
 .body_home .Wrapper{
-    background-color: #1e1e1e;
-}
-
-.body_home .home_image{
-    display: block;
+    background-color: #ECF8F9;
     width: 100%;
-    height: 90vh;
-    opacity: .2;
-    
+    height: fit-content;
+
+    display: flex;
+    justify-content: flex-end;
 }
 
 .body_home .Wrapper .description{
-    color: white;
-    z-index: 1;
-
     position: absolute;
-    top: 250px;
+    top: 200px;
     left: 100px;
 
     width: 40%;
-    height: 220px;
+    height: fit-content;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .body_home .Wrapper .description h1{
+    color: #1e1e1e;
     font-family: poppinBlack;
     font-size: 2.2em;
 }
@@ -68,4 +60,13 @@
     padding: 8px 15px;
     border-radius: 5px;
     font-weight: bolder;
+}
+
+.body_home .Wrapper .description .btns .link_to_login:hover,.link_to_about:hover{
+    box-shadow: 0 0 4px 0 #1e1e1e;
+}
+
+.body_home .Wrapper .illustrat{
+    width: 40%;
+    height: fit-content;
 }

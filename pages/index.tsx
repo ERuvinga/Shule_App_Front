@@ -10,17 +10,19 @@ export default function Home() {
         <Navbar/>
         <section className='body_home'>
           <div className='Wrapper'>
-            <aside className='description'>
-                <h1 className=''>SOYEZ LE BIENVENU A L` ECOLE<br/>PRIMAIRE NEEMA</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur ab sed officiis   
-                </p> 
-                <div className='btns'>
-                  <a className='link_to_login mr-5' href='/Login'>Connexion</a>
-                  <a className='link_to_about' href='#about'>A propos</a>
+              <div className='description'>
+                  <h1 className=''>SOYEZ LE BIENVENU A L` ECOLE<br/>PRIMAIRE NEEMA</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur ab sed officiis   
+                  </p> 
+                  <div className='btns'>
+                    <a className='link_to_login mr-5' href='/Login'>Connexion</a>
+                    <a className='link_to_about' href='#about'>A propos</a>
+                  </div>
+              </div>
+                <div className='illustrat mr-16'>
+                  <img src='/wel.gif' alt='illustration'/>
                 </div>
-            </aside>
-            <img className='home_image' src='/imgs/back.jpg'alt="image d'acceuil"/>
           </div>
         </section>
       </section>
