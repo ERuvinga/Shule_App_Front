@@ -34,5 +34,15 @@ body{
   font-family: poppinRegular, sans-serif;
 }
 
+.contenaire-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 /*Nav_bar style*/
-@import './navBar.css'
+@import './navBar.css';
+
+/*Body*/
+@import './body_home.css';
