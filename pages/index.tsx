@@ -21,7 +21,7 @@ export default function Home() {
                   </div>
               </div>
                 <div className='illustrat mr-16'>
-                  <img src='/wel.gif' alt='illustration'/>
+                  <img src='/wel.gif' alt='error_illustration'/>
                 </div>
           </div>
         </section>
